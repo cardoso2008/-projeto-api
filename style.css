@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(238, 238, 238);
+}
+.titulo {
+    color: rgb(0, 0, 0);
+}
+
+.subtitulo {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(0, 4, 255);
+    font-size: 28px;
+}
+.texto {
+    margin-left: 50px;
+    margin-right: 60px;
+    font-size: 20px;
+    text-align: justify;
+}
+.botao {
+    background-color: rgb(111, 0, 255);
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+}

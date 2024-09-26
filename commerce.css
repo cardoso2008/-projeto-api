@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+#valor{
+    border-radius: 10px;
+}
+.botao {
+    background-color: blue;
+    border-radius: 20px;
+    height: 40px;
+    width: 140px;
+    color: white;
+    font-size: 18px;
+}

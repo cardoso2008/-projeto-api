@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIMA</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="clima.css">
+</head>
+<body>
+    <header style="background-color: gold;">
+    <center><h1 class="titulo">PREVISÃO DO TEMPO</h1></center>
+    </header>
+
+    <hr><br><br><br>
+
+    <main><center>
+    <p class="cidade">DIGITE A CIDADE</p><br>
+    <input class="caixa" type="text" id="city">
+
+    <br><br>
+
+    <button class="botao" onclick="getWeather()">PESQUISAR</button>
+    <p class="resultado" id="temperatura"></p>
+
+    <script src="clima.js"></script>
+
+    </main></center>
+
+    <footer style="background-color: gold;">
+
+    </footer>
+</body>
+</html>
